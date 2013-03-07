@@ -1,2 +1,4 @@
+     - Corrected test (check for existence of Type before-hand)
+
 1.00 - 2013-03-07
      - Extracted from MooX::Types::MooseLike as its own distribution
