@@ -173,8 +173,8 @@
     '10 is an exception when we want a single digit'
     );
 
-eval q{ require Moose } or do {
-    note "Moose not available; skipping actual inflation tests";
+eval q{ require Moose; require MooseX::Types::Common::Numeric; } or do {
+    note "Moose or Type not available; skipping actual inflation tests";
     done_testing;
     exit;
 };
