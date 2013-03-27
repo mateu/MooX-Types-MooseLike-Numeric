@@ -13,7 +13,7 @@ my %BUILD_DEPS = (
 );
 
 WriteMakefile(
-  NAME => 'MooX-Types-MooseLike-Numeric',
+  NAME => 'MooX::Types::MooseLike::Numeric',
   VERSION_FROM => 'lib/MooX/Types/MooseLike/Numeric.pm',
   PREREQ_PM => {
     %RUN_DEPS,
