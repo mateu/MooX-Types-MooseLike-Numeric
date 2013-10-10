@@ -98,7 +98,7 @@ MooX::Types::MooseLike::Numeric - Moo types for numbers
 
 =head1 DESCRIPTION
 
-adpated from MooseX::Types::Common::Numeric
+adapted from MooseX::Types::Common::Numeric
 
 =head1 TYPES (subroutines)
 
