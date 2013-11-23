@@ -1,3 +1,5 @@
+     - Correct Makefile NAME
+
 1.01 - 2013-03-07
      - Corrected test (check for existence of Type before-hand)
 
