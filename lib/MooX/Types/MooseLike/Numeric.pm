@@ -88,17 +88,18 @@ MooX::Types::MooseLike::Numeric - Moo types for numbers
 
 =head1 SYNOPSIS
 
-    package MyPackage;
-    use Moo;
-    use MooX::Types::MooseLike::Numeric qw(PositiveInt);
+  package MyPackage;
+  use Moo;
+  use MooX::Types::MooseLike::Numeric qw(PositiveInt);
 
-    has "daily_breathes" => (
-        isa => PositiveInt
-    );
+  has "daily_breathes" => (
+    is  => 'rw',
+    isa => PositiveInt
+  );
 
 =head1 DESCRIPTION
 
-adapted from MooseX::Types::Common::Numeric
+A set of numeric types to be used in Moo-based classes. Adapted from MooseX::Types::Common::Numeric
 
 =head1 TYPES (subroutines)
 
@@ -125,3 +126,26 @@ Available types are listed below.
 =item SingleDigit
 
 =back
+
+=head1 SEE ALSO
+
+L<MooX::Types::MooseLike> - a type builder.
+
+L<MooX::Types::MooseLike::Base> - a set of basic types.
+
+L<MooX::Types::MooseLike::Email>, L<MooX::Types::MooseLike::DateTime>
+
+=head1 AUTHOR
+
+mateu - Mateu X. Hunter (cpan:MATEU) <hunter@missoula.org>
+
+=head1 COPYRIGHT
+
+Copyright (c) 2011-2015 the MooX::Types::MooseLike::Numeric L</AUTHOR>
+
+=head1 LICENSE
+
+This library is free software and may be distributed under the same terms
+as perl itself.
+
+=cut
