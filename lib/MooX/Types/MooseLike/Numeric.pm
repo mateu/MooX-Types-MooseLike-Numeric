@@ -139,6 +139,10 @@ L<MooX::Types::MooseLike::Email>, L<MooX::Types::MooseLike::DateTime>
 
 mateu - Mateu X. Hunter (cpan:MATEU) <hunter@missoula.org>
 
+=head1 CONTRIBUTORS
+
+amidos - Dmitry Matrosov (cpan:AMIDOS) <amidos@amidos.ru>
+
 =head1 COPYRIGHT
 
 Copyright (c) 2011-2015 the MooX::Types::MooseLike::Numeric L</AUTHOR>
