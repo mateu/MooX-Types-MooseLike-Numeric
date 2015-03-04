@@ -1,3 +1,5 @@
+     - Simplify type constraint tests by making use of subtype (meAmidos)
+
 1.02 - 2013-11-23
      - Correct Makefile NAME
 
