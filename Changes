@@ -1,3 +1,6 @@
+1.03 - 2017-01-20
+     - Add Moo to Build requirements (wpmoore/mendoza)
+     - Improve POD (meAmidos)
      - Simplify type constraint tests by making use of subtype (meAmidos)
 
 1.02 - 2013-11-23

@@ -10,6 +10,7 @@ my %RUN_DEPS = (
 my %BUILD_DEPS = (
   'Test::More'  => 0.96,
   'Test::Fatal' => 0.003,
+  'Moo'         => 1.004002,
 );
 
 WriteMakefile(

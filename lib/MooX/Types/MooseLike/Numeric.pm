@@ -6,7 +6,7 @@ use MooX::Types::MooseLike::Base;
 use Exporter 5.57 'import';
 our @EXPORT_OK = ();
 
-our $VERSION = '1.02';
+our $VERSION = '1.03';
 
 my $type_definitions = [
   {
